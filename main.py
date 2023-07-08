@@ -45,7 +45,7 @@ def calculate_materials():
     result_text.insert(tk.END, total_materials.to_string(index=False))
 
 
-equipment_data = pd.read_csv('../../Documents/material_output.csv')
+equipment_data = pd.read_csv('material_output.csv')
 
 
 # 创建主窗口
