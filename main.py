@@ -50,7 +50,7 @@ def save_instructions():
     print("材料表已保存到csv文件")
 
 
-equipment_data = pd.read_csv('material_output_2.csv')
+equipment_data = pd.read_csv('material_output_update.csv')
 
 # 创建主窗口
 window = tk.Tk()
